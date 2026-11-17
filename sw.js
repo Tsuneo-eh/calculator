@@ -1,6 +1,6 @@
 // オフライン用：アプリ本体をキャッシュして、電波がなくても開けるようにする
 // ファイルを更新したら CACHE の番号を上げる
-const CACHE = 'calc-v1';
+const CACHE = 'calc-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -8,7 +8,7 @@ const ASSETS = [
   './calc-core.js',
   './app.js',
   './manifest.webmanifest',
-  './icons/icon.svg',
+  './icons/icon-32.png',
   './icons/icon-180.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
