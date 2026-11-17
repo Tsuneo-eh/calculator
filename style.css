@@ -42,9 +42,9 @@ button { font: inherit; color: inherit; border: 0; background: none; padding: 0;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  /* 上部はiOSのステータスバー下のぼかし範囲を避けるため、安全領域＋18pxあける */
+  /* 上部はiOSのステータスバー下のぼかし範囲を避けるため、安全領域＋34pxあける */
   padding:
-    calc(env(safe-area-inset-top, 0px) + 18px) 14px
+    calc(env(safe-area-inset-top, 0px) + 34px) 14px
     max(14px, env(safe-area-inset-bottom));
 }
 
